@@ -1,0 +1,17 @@
+{
+  "name": "mdc-partners",
+  "version": "1.0.0",
+  "description": "Job application for MDC Partners",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "author": "João Caetano",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
+}
