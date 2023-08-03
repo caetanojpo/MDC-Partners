@@ -22,8 +22,9 @@ class SimpleCalculator {
 
 function calculator(req, operator) {
   try {
-    const firstNumber = parseFloat(req.params.firstNumber);
-    const secondNumber = parseFloat(req.params.secondNumber);
+    const jsonData = req.body;
+    const firstNumber = parseFloat(jsonData.firstNumber);
+    const secondNumber = parseFloat(jsonData.secondNumber);
     return eval(firstNumber + operator + secondNumber);
   } catch (error) {
     res.status(500).send("Internal server error");

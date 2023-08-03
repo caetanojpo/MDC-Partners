@@ -10,7 +10,7 @@ import bodyParser from "body-parser";
 
 const routes = (app) => {
   app.route("/").get((req, res) => {
-    res.status(200).send({ title: "MDC Partners test" });
+    res.status(200).redirect("/docs");
   });
 
   app.use(
