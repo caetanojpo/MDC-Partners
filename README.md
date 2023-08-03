@@ -31,7 +31,7 @@ docker-compose up
 
 # Access the following address in the browser
 ```bash
-[http://localhost:3000/docs/]
+http://localhost:3000/docs/
 ```
 
 ### 🛠 Technical Details
